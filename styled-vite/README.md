@@ -1,16 +1,48 @@
-# React + Vite
+# CardProduto com Styled Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido como atividade do curso de Front-End da EBAC.
 
-Currently, two official plugins are available:
+## Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Refatorar os estilos de um componente React utilizando CSS-in-JS com Styled Components, aplicando estilização dinâmica através de props.
 
-## React Compiler
+## Tecnologias utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* Styled Components
+* JavaScript
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Exibição de nome e preço do produto
+* Botão "Adicionar ao carrinho"
+* Alteração dinâmica da cor do botão:
+
+  * Verde quando o produto está adicionado
+  * Cinza quando o produto não está adicionado
+* Alteração de estado utilizando `useState`
+
+## Como executar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone URL_DO_REPOSITORIO
+```
+
+2. Instale as dependências:
+
+```bash
+npm install
+```
+
+3. Execute o projeto:
+
+```bash
+npm run dev
+```
+
+## Autor
+
+Projeto desenvolvido por Matheus como atividade prática do curso da EBAC.
